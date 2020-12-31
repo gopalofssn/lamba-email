@@ -22,7 +22,7 @@ public class EmailService {
 	public void send(String content) {
 		
 		final String username = "monmouthpaperflowers@gmail.com";
-        final String password = "Gopal1Ramya2";
+        final String password = "";
 
         Properties prop = new Properties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
